@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 import "./index.css";
 
-const socket = io("http://games.uvaishassan.com");
+const socket = io("https://games.uvaishassan.com");
 
 function App() {
   const [roomId, setRoomId] = useState("");
